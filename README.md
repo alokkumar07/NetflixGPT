@@ -8,6 +8,8 @@
  -Sign Up Form
  -Form validation
  -useRef Hook
+ -fireBase setup
+ -Create SignUp User Account
 
  # Features
    -Login/Signup 
