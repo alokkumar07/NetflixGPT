@@ -10,6 +10,9 @@
  -useRef Hook
  -fireBase setup
  -Create SignUp User Account
+ _Implemented Sign Out
+ -Upadate Profile
+ 
 
  # Features
    -Login/Signup 
