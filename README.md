@@ -14,6 +14,8 @@
  -Upadate Profile
  -BugFix: Sign up user displayName and profile picture update
  -Bugfix: If the user is not logged in Redirect /browse to login page and vice versa
+ -Unsubscribed to the onAuthStateChanged callback
+ -Add hardcoded values to the constants
 
  # Features
    -Login/Signup 
