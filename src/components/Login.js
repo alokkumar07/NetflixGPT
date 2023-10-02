@@ -51,7 +51,6 @@ const Login = () => {
           })
             .then(() => {
               const { uid, email, displayName, photoURL } = auth.currentUser;
-              // console.log(auth)
               dispatch(
                 addUser({
                   uid: uid,
@@ -68,7 +67,6 @@ const Login = () => {
               // An error occurred
               // ...
             });
-          // console.log("user", user);
           // ...
         })
         .catch((error) => {
