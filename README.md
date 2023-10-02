@@ -17,6 +17,12 @@
  -Unsubscribed to the onAuthStateChanged callback
  -Add hardcoded values to the constants
  -Register TMDB API & create an app & get acess
+ -Custom Hooks for Now playing movie
+ - Update store with movie data
+ -custoom hooks for Trailer viedo 
+ -update storw with trailer viedo
+ -embedded the youtube viedo and make auto play video & mute
+ -UseTailwind css make look awsome
 
  # Features
    -Login/Signup 

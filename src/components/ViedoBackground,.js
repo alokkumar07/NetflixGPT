@@ -9,11 +9,10 @@ const ViedoBackground = ({ movieId }) => {
     useMoviesTrailer((movieId))
 
   return (
-    <div>
+    <div className="w-screen">
       <iframe
-        width="560"
-        height="315"
-        src={"https://www.youtube.com/embed/" + trailerViedo?.key}
+      className="w-screen  aspect-video"
+        src={"https://www.youtube.com/embed/" + trailerViedo?.key + "?&autoplay=true&mute=true"}
         title="YouTube video player"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
       ></iframe>
