@@ -16,6 +16,7 @@
  -Bugfix: If the user is not logged in Redirect /browse to login page and vice versa
  -Unsubscribed to the onAuthStateChanged callback
  -Add hardcoded values to the constants
+ -Register TMDB API & create an app & get acess
 
  # Features
    -Login/Signup 
