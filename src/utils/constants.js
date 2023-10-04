@@ -7,9 +7,13 @@ export const USER_AVATAR =
 export const API_OPTIONS = {
     method: 'GET',
     headers: {
-      accept: 'application/json',
-      Authorization: 'Bearer' + process.env.REACT_APP_TMDB_KEY
-    }
+        accept: 'application/json',
+        Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIzOTNkZmIzNDBiMjU2NjEyNjQyZTQ1NzY4NGMzNjM0YSIsInN1YiI6IjY0NDRiOWRkMDU4MjI0MDQ5NTMzMTM0MCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.yPypvpgmgdXPlVucHZh6HA_Z9FA9wF5wOlafkd8EkPw'
+      }
+    // headers: {
+    //   accept: 'application/json',
+    //   Authorization: 'Bearer eyJhdWQiOiIzOTNkZmIzNDBiMjU2NjEyNjQyZTQ1NzY4NGMzNjM0YSIsInN1YiI6IjY0NDRiOWRkMDU4MjI0MDQ5NTMzMTM0MCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ' 
+    // }
   };
 
   export const IMG_CDN_URL ="https://image.tmdb.org/t/p/w500/"
@@ -22,4 +26,4 @@ export const SUPPORTED_LANGUAGES = [
   { identifer: "spanish", name: "Spanish" },
 ];
 
-export const OPEN_AI_KEY = process.env.REACT_APP_OPEN_AI_KEY
+export const OPEN_AI_KEY = "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"
